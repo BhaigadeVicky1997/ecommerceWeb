@@ -1,0 +1,64 @@
+<div class="p-2 my-container active-cont">
+  <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
+    <div class="dropdown">
+      <a href="#" class="d-flex align-items-center link-dark text-decoration-none">
+        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+        <strong>Hello Vicky</strong>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="p-2 my-container active-cont">
+  <div class="d-flex flex-column flex-shrink-0 p-3 bg-light">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" (click)="templateView('order')" aria-current="page">My Orders</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="templateView('account')">Account Setting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" (click)="templateView('wishlist')" aria-current="page">Wishlist</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="templateView('coupon')">Coupons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">My Chat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="templateView('notification')">Notification</a>
+      </li>
+    </ul>
+    <hr>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/auth/signup">Signout</a>
+      </li>
+    </ul>
+
+  </div>
+
+</div>
+
+
+<!-- <nav class="menu" tabindex="0">
+	<div class="smartphone-menu-trigger"></div>
+  <header class="avatar">
+		<img src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" />
+    <h2>John D.</h2>
+  </header>
+	<ul>
+    <li tabindex="0" class="icon-dashboard"><span>Dashboard</span></li>
+    <li tabindex="0" class="icon-customers"><span>Customers</span></li>
+    <li tabindex="0" class="icon-users"><span>Users</span></li>
+    <li tabindex="0" class="icon-settings"><span>Settings</span></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="helper">
+    RESIZE THE WINDOW
+		<span>Breakpoints on 900px and 400px</span>
+  </div> -->

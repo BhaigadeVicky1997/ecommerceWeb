@@ -1,0 +1,32 @@
+@import '../../../../styles.scss';
+
+.main_box {
+    box-shadow: 0 1px 8px #bbb;
+    padding: 2vh;
+    margin: 4h;
+}
+
+.form-control{
+    @include form_control_style;
+}
+
+label{
+    @include label;
+}
+
+.btn{
+    @include btn_style;
+}
+
+.signup_text{
+    @include main_box_text_title;
+}
+
+
+@media only screen and (max-width: 425px) {
+   .main_box{
+    box-shadow: none; 
+    padding: 0vh; 
+    margin: 0vh;
+   }
+}

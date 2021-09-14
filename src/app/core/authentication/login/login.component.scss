@@ -1,0 +1,42 @@
+@import '../../../../styles.scss';
+
+.even{
+    color:red
+}
+
+.form-control{
+    @include form_control_style;
+}
+
+label{
+    @include label;
+}
+
+.btn{
+ @include btn_style;
+}
+
+.main_box {
+    box-shadow: 0 1px 8px #bbb;
+    padding: 10vh;
+    margin: 4vh;
+}
+.Login_text{
+       /* margin-top: 6vh; */
+       background-color: #fff;
+       padding: 1vh;
+}
+
+.main{
+    overflow-y: hidden;
+    background-color: red;
+}
+
+
+@media only screen and (max-width: 425px) {
+    .main_box{
+     box-shadow: none; 
+     padding: 0vh; 
+     margin: 0vh;
+    }
+ }

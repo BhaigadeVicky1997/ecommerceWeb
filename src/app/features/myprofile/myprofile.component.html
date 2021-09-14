@@ -1,0 +1,14 @@
+<div class="row">
+
+    <div class="col-lg-3 col-sm-12">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="col-9">
+        <app-orders *ngIf="flag == 'order'"></app-orders>
+        <app-wishlist *ngIf="flag == 'wishlist'"></app-wishlist>
+        <app-coupon *ngIf="flag == 'coupon'"></app-coupon>
+        <app-notification *ngIf="flag == 'notification'"></app-notification>
+        <app-edit-profile *ngIf="flag == 'account'"></app-edit-profile>
+    </div>
+
+</div>

@@ -1,0 +1,36 @@
+.home_page_banner{
+//    background: url('src/assets/homepage/Home_Banner.jpg');
+background-image: image('src/assets/homepage/Home_Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-toggler{
+
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    background-color: #000;
+ }
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.creaftText{
+font-family: LaPaloma;
+color: #000;
+font-size: 3rem;
+margin: 0;
+}
+
+.third_section{
+    width: 60%;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+    background-color: none;
+
+}
